@@ -1,0 +1,243 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+section {
+  margin: 5vh;
+}
+
+.container {
+  background: white;
+}
+.container .row {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.container .row .home {
+  padding: 50px;
+}
+.container .row .home h1 {
+  font-size: 6rem;
+  color: green;
+  -webkit-text-decoration: bold;
+          text-decoration: bold;
+}
+.container .row .home p {
+  font-size: 3.8rem;
+}
+.container .row .home button {
+  background-color: green;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  padding: 10px;
+  font-size: 2rem;
+}
+.container .row .banner-img {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.container .row .banner-img .homephoto {
+  width: 80%;
+}
+
+.about .row .about-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .row .about-img img {
+  width: 70%;
+}
+.about .row .about-info h2 {
+  color: green;
+}
+.about .row .about-info h1 {
+  font-size: 4rem;
+}
+.about .row .about-info p {
+  width: 80%;
+}
+.about .row .about-info button {
+  background-color: green;
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  font-size: 2rem;
+}
+
+.services {
+  width: 100vh;
+}
+.services .heading {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  align-content: center;
+  font-weight: bold;
+}
+.services .row .card1 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.services .row .card1 img {
+  margin-left: 70%;
+  width: 150;
+  margin-bottom: 0;
+  color: green !important;
+}
+.services .row .card1 h3 {
+  margin-top: 0;
+}
+
+.special h3 {
+  color: green;
+}
+.special .row .heading {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  align-content: center;
+  font-weight: bold;
+}
+.special .row .card {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 8px;
+  justify-content: center;
+}
+.special .row .card .money {
+  font-weight: bold;
+}
+.special .row .card .img-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 3%;
+  margin-top: 30px;
+}
+.special .row .card .img-div img {
+  width: 60%;
+}
+
+.container .row .phone {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.container .row .phone img {
+  width: 50%;
+}
+.container .row .info h3 {
+  color: green;
+}
+.container .row .info h2 {
+  font-weight: bold;
+  font-size: xx-large;
+}
+.container .row .info p {
+  width: 60%;
+}
+.container .row .info .icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.container .row .info .icons img {
+  width: 30%;
+}
+
+.contact .row button {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 568px) {
+  body {
+    color: red;
+    background-color: red;
+  }
+}
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+/* Set width to make card deck cards 100% width *//*# sourceMappingURL=style.css.map */
